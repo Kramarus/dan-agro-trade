@@ -1,0 +1,10 @@
+.advantage-img svg {
+    width: 80px;
+    border: 1px solid white;
+    padding: 16px;
+    border-radius: 50%;
+}
+
+.box_content .detail-box {
+    height: 180px;
+}
