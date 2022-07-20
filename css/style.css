@@ -114,7 +114,7 @@ h5 {
     display: flex;
     align-items: center; }
     .custom_nav-container .name_style h6 {
-      color: #e6e804;
+      color: #f8bd01;
       writing-mode: vertical-rl;
       text-orientation: upright;
       text-transform: uppercase;
@@ -290,7 +290,7 @@ a:focus {
           margin: 0 5px; }
         .slider_section .box .detail-box .btn-box .btn-1 {
           display: inline-block;
-          background-color: #e6e804;
+          background-color: #f8bd01;
           color: #000000;
           padding: 12px 10px;
           border-radius: 0;
@@ -330,7 +330,7 @@ a:focus {
       align-items: center;
       font-size: 22px;
       color: #000000;
-      background-color: #e6e804;
+      background-color: #f8bd01;
       transition: all 0.2s;
       opacity: 1; }
       .slider_section .carousel_btn-box .carousel-control-prev:hover,
@@ -346,7 +346,7 @@ a:focus {
     left: 0;
     width: 95%;
     height: 100%;
-    background-color: #e6e804;
+    background-color: #f8bd01;
     background-size: cover;
     clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
     z-index: -1; }
@@ -422,7 +422,7 @@ a:focus {
   .choose_section .heading_container h2 {
     color: #ffffff; }
     .choose_section .heading_container h2 span {
-      color: #e6e804; }
+      color: #f8bd01; }
   .choose_section .box {
     margin-top: 45px;
     text-align: center; }
@@ -459,10 +459,10 @@ a:focus {
         text-transform: uppercase;
         font-size: 15px; }
         .choose_section .box .btn-box a:hover {
-          background-color: #e6e804;
+          background-color: #f8bd01;
           color: #000000; }
     .choose_section .box:hover .box_content {
-      background-color: #e6e804;
+      background-color: #f8bd01;
       color: #000000; }
       .choose_section .box:hover .box_content .img-box svg {
         fill: #000000; }
@@ -476,7 +476,7 @@ a:focus {
     left: 0;
     width: 95%;
     height: 100%;
-    background-color: #e6e804;
+    background-color: #f8bd01;
     clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
     z-index: -1; }
   .blog_section .heading_container {
@@ -584,7 +584,7 @@ a:focus {
       color: #ffffff;
       margin: 0; }
       .contact_section .heading_container h2 span {
-        color: #e6e804; }
+        color: #f8bd01; }
   .contact_section input {
     width: 100%;
     border: none;
@@ -601,7 +601,7 @@ a:focus {
   .contact_section button {
     border: none;
     display: inline-block;
-    background-color: #e6e804;
+    background-color: #f8bd01;
     color: #000000;
     padding: 12px 35px;
     border-radius: 0;
@@ -635,7 +635,7 @@ a:focus {
     left: 0;
     width: 95%;
     height: 100%;
-    background-color: #e6e804;
+    background-color: #f8bd01;
     clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
     z-index: -1; }
   .client_section .heading_container {
@@ -661,7 +661,7 @@ a:focus {
         font-weight: 600;
         margin-bottom: 5px; }
       .client_section .box .detail-box h6 {
-        color: #e6e804;
+        color: #f8bd01;
         font-weight: normal;
         font-size: 14px;
         margin-bottom: 15px; }
@@ -731,7 +731,7 @@ a:focus {
       .info_section .info_contact .contact_link_box a i {
         margin-right: 5px; }
       .info_section .info_contact .contact_link_box a:hover {
-        color: #e6e804; }
+        color: #f8bd01; }
   .info_section .info_social {
     display: flex;
     margin-top: 20px; }
@@ -744,7 +744,7 @@ a:focus {
       margin-right: 10px;
       font-size: 24px; }
       .info_section .info_social a:hover {
-        color: #e6e804; }
+        color: #f8bd01; }
   .info_section .info_links {
     display: flex;
     flex-direction: column;
@@ -755,9 +755,9 @@ a:focus {
       margin-bottom: 5px;
       color: #ffffff; }
       .info_section .info_links a:hover, .info_section .info_links a.active {
-        color: #e6e804; }
+        color: #f8bd01; }
   .info_section form {
-    background-color: #e6e804;
+    background-color: #f8bd01;
     padding: 10px; }
     .info_section form input {
       border: none;
@@ -774,7 +774,7 @@ a:focus {
       width: 100%;
       text-align: center;
       display: inline-block;
-      background-color: #e6e804;
+      background-color: #f8bd01;
       color: #000000;
       padding: 10px 55px;
       border-radius: 0;
