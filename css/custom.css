@@ -8,3 +8,27 @@
 .box_content .detail-box {
     height: 180px;
 }
+
+.bg-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    width: 100%;
+    height: 810px;
+    background-size: cover;
+    clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 90%);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.bg-overlay2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    width: 100%;
+    height: 810px;
+    background-size: cover;
+    clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0 90%);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
