@@ -4,8 +4,7 @@
   font-weight: bold; }
 body {
   font-family: "Poppins", sans-serif;
-  overflow-x: hidden;
-  background-color: #095a42; }
+  overflow-x: hidden; }
 
 h1,
 h2,
@@ -84,7 +83,6 @@ h5 {
   top: 4px; }
 
 .header_section {
-  background-color: #095a42;
   padding: 0 30px; }
   .header_section .nav_container {
     margin: 0 auto; }
@@ -99,7 +97,7 @@ h5 {
   font-family: "BerlinSansFBDemi", "Poppins", sans-serif;
   font-weight: bold; }
   .navbar-brand span {
-    color: #ffffff;
+    color: #62a900;
     font-size: 24px; }
 
 .custom_nav-container {
@@ -137,7 +135,7 @@ h5 {
   display: block;
   width: 35px;
   height: 4.5px;
-  background-color: #ffffff;
+  background-color: #62a900;
   margin: 7px 0;
   transition: all 0.3s; }
 
@@ -154,7 +152,7 @@ h5 {
     display: block;
     width: 35px;
     height: 4.5px;
-    background-color: #ffffff;
+    background-color: #62a900;
     margin: 7px 0;
     transition: all 0.3s; }
   .menu_btn-style button {
@@ -173,7 +171,7 @@ h5 {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgba(7, 67, 49, 0.95);
+  background-color: rgba(218, 219, 212, 0.95);
   overflow-x: hidden;
   transition: 0.5s; }
   .overlay .closebtn {
@@ -284,7 +282,7 @@ a:focus {
         display: flex;
         margin-top: 35px; }
         .slider_section .box .detail-box .btn-box a {
-          width: 165px;
+          width: 185px;
           text-transform: uppercase;
           text-align: center;
           margin: 0 5px; }
@@ -365,7 +363,7 @@ a:focus {
         font-size: 20px; }
       .wedo_section .box .detail-box a {
         display: inline-block;
-        background-color: #095a42;
+        background-color: #e6e7e2;
         color: #ffffff;
         padding: 10px 25px;
         border-radius: 0;
@@ -415,7 +413,7 @@ a:focus {
     right: 0;
     width: 95%;
     height: 100%;
-    background-image: url(../img/bg2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg2.jpg);
     background-size: cover;
     clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 90%);
     z-index: -1; }
@@ -427,7 +425,7 @@ a:focus {
     margin-top: 45px;
     text-align: center; }
     .choose_section .box .box_content {
-      background-color: #095a42;
+      background-color: #e6e7e2;
       color: #ffffff;
       padding: 45px 15px; }
     .choose_section .box .img-box {
@@ -525,7 +523,7 @@ a:focus {
       font-size: 20px; }
     .blog_section .blog_detail a {
       display: inline-block;
-      background-color: #095a42;
+      background-color: #e6e7e2;
       color: #ffffff;
       padding: 10px 25px;
       border-radius: 0;
@@ -574,7 +572,7 @@ a:focus {
     right: 0;
     width: 95%;
     height: 100%;
-    background-image: url(../img/bg3.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg3.jpg);
     background-size: cover;
     clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 90%);
     z-index: -1; }
@@ -705,11 +703,10 @@ a:focus {
     right: 0;
     width: 95%;
     height: 100%;
-    background-image: url(../images/info-bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/info-bg.jpg);
     background-size: cover;
     clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 90%);
-    z-index: -1;
-    opacity: 0.2; }
+    z-index: -1; }
   .info_section .info_logo {
     display: flex;
     justify-content: center;
@@ -790,7 +787,6 @@ a:focus {
 /* end info section */
 /* footer section*/
 .footer_section {
-  background-color: #095a42;
   text-align: center;
   color: #ffffff; }
   .footer_section p {

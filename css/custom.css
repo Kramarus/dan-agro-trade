@@ -22,7 +22,6 @@
 }
 
 .bg-overlay2 {
-    background-color: rgba(0, 0, 0, 0.5);
     background-size: cover;
     width: 100%;
     height: 810px;
@@ -34,7 +33,6 @@
 }
 
 .bg-overlay3 {
-    background-color: rgba(0, 0, 0, 0.5);
     background-size: cover;
     width: 100%;
     height: 1010px;
@@ -44,3 +42,24 @@
     align-items: center;
     position: relative;
 }
+
+.text-wheat {
+    color: #f8bd01!important;
+}
+
+.text-greeny {
+    color: #62a900!important;
+}
+
+.text-flour {
+    color: #e6e7e2;
+}
+
+body {
+    background-image: url(../img/flour-bg.jpg);
+    background-repeat: repeat-y;  
+    background-attachment: fixed;
+
+}
+
+/*#62a900 green*/
