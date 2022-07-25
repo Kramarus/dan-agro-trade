@@ -171,7 +171,7 @@ h5 {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgba(218, 219, 212, 0.95);
+  background-color: rgba(248, 189, 1, 0.95);
   overflow-x: hidden;
   transition: 0.5s; }
   .overlay .closebtn {
@@ -705,7 +705,7 @@ a:focus {
     height: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../img/info-bg1.jpg);
     background-size: cover;
-    clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 90%);
+    clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 100%);
     z-index: -1; }
   .info_section .info_logo {
     display: flex;

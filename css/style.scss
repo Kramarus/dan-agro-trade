@@ -273,7 +273,7 @@ h5 {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgba($color: darken($primary1, 5), $alpha: 0.95);
+  background-color: rgba($color: #f8bd01, $alpha: 0.95);
   overflow-x: hidden;
   transition: 0.5s;
 
@@ -992,7 +992,7 @@ a:focus {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.5)), url(../img/info-bg1.jpg);
     background-size: cover;
-    clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 90%);
+    clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 100%);
     z-index: -1;
   }
 
