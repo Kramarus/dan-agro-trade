@@ -13,8 +13,13 @@ body {
     border-radius: 50%;
 }
 
-.box_content .detail-box p {
-    height: 120px;
+.box_content .detail-box {
+    height: 100%;
+}
+
+.h100p {
+    height: 289px;
+    
 }
 
 .bg-overlay {
