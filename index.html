@@ -381,22 +381,38 @@
       class="wedo_section layout_padding section_pr animate__animated animate__bounceInLeft animate__delay-1s"
     >
       <div class="container">
-        <div class="heading_container">
-          <h2><span>Наша</span> компанія</h2>
+        
+        <div class="row">
+          <div class="col-12">
+            <div class="heading_container">
+              <h2><span>Наша</span> компанія</h2>
+            </div>
+            <p>
+              ТОВ «Дан Агро Трейд» - українська компанія, яка займається
+              експортом сільськогосподарської продукції на ринки Західної
+              Європи.
+            </p>
+            <p>
+              ТОВ «Дан Агро Трейд» входить до складу корпорації «Теплоенерго» -
+              мультигалузевої групи компаній, що вже 28 років виробляє
+              теплоенергетичне обладнання, теплогенератори для зерносушарок,
+              займається модернізацією зерносушарних комплексів та
+              переоснащенням аграрних об’єктів різного призначення.
+            </p>
+            <button
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#callOrder"
+              class="btn btn-outline-dark btn-lg"
+            >
+              <i class="fa fa-solid fa-phone"></i>
+              Замовити дзвінок
+            </button>
+          </div>
+         
         </div>
-        <div>
-          <p>
-            ТОВ «Дан Агро Трейд» - українська компанія, яка займається експортом
-            сільськогосподарської продукції на ринки Західної Європи.
-          </p>
-          <p>
-            ТОВ «Дан Агро Трейд» входить до складу корпорації «Теплоенерго» -
-            мультигалузевої групи компаній, що вже 28 років виробляє
-            теплоенергетичне обладнання, теплогенератори для зерносушарок,
-            займається модернізацією зерносушарних комплексів та переоснащенням
-            аграрних об’єктів різного призначення.
-          </p>
-        </div>
+
+        <div></div>
       </div>
     </section>
 
@@ -446,8 +462,9 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-4">
+            
             <h4>
-              Підпісатися
+              Підпісатись на новини
             </h4>
             <!--Rus:bb578093b6a53e03850716bdb2a99164-->
             <!--Nat:9cf9691a396ac0aa43f64c51c702e6b8-->
@@ -616,12 +633,387 @@
       </div>
     </div>
 
+    <!--Order form Flour -->
+    <div
+      class="modal fade"
+      id="orderFormFlour"
+      tabindex="-1"
+      aria-labelledby="orderLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="orderLabel">Форма замовлення</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="container text-start">
+              <div class="row justify-content-center">
+                <!--Rus:bb578093b6a53e03850716bdb2a99164-->
+                <!--Nat:9cf9691a396ac0aa43f64c51c702e6b8-->
+                <form
+                  action="https://formsubmit.co/9cf9691a396ac0aa43f64c51c702e6b8"
+                  action
+                  class="row justify-content-start g-2"
+                  method="POST"
+                >
+                  <label for="name" class="form-label"
+                    >Ім'я або назва компанії (обов'язкове поле)</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control mb-3"
+                    name="Ім'я"
+                    id="name"
+                    required
+                  />
+
+                  <label for="phoneNumber" class="form-label"
+                    >Ваш Email (обов'язкове поле)</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control mb-3"
+                    name="Email"
+                    id="email"
+                    required
+                  />
+
+                  <label for="phoneNumber" class="form-label"
+                    >Телефон (обов'язкове поле)</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control mb-3"
+                    name="Телефон"
+                    id="phoneNumber"
+                    required
+                  />
+                  <div class="d-flex">
+                    <div class="me-3" style="flex: 2;">
+                      <label for="product" class="form-label">Продукт</label>
+
+                      <select
+                        class="form-select mb-3"
+                        id="product"
+                        name="Продукт"
+                      >
+                        <option value="Борошно" selected>Борошно</option>
+                        <option value="Висівки">Висівки</option>
+                        <option value="Манна крупа">Манна крупа</option>
+                      </select>
+                    </div>
+                    <div style="flex: 1;">
+                      <label for="volume" class="form-label"
+                        >Об'єм (тонн)</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control mb-3"
+                        name="Об'єм (тонн)"
+                        id="volume"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <label for="comments" class="form-label">Коментар</label>
+                  <textarea
+                    class="form-control"
+                    id="comments"
+                    name="Коментар"
+                    rows="3"
+                  ></textarea>
+                  <input type="hidden" name="_captcha" value="false" />
+                  <input
+                    type="hidden"
+                    name="_next"
+                    value="http://127.0.0.1:5500/thankyou.html"
+                  />
+                  <input type="hidden" name="_subject" value="Заказ продукта" />
+                  <input type="hidden" name="_template" value="table" />
+                  <div class="d-flex mt-4" style="justify-content: right;">
+                    <button type="submit" class="btn btn-lg btn-custom mr-3">
+                      Залишити заяву
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-secondary btn-lg"
+                      data-bs-dismiss="modal"
+                    >
+                      Назад
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Order form Bran -->
+    <div
+      class="modal fade"
+      id="orderFormBran"
+      tabindex="-1"
+      aria-labelledby="orderLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="orderLabel">Форма замовлення</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="container text-start">
+              <div class="row justify-content-center">
+                <!--Rus:bb578093b6a53e03850716bdb2a99164-->
+                <!--Nat:9cf9691a396ac0aa43f64c51c702e6b8-->
+                <form
+                  action="https://formsubmit.co/9cf9691a396ac0aa43f64c51c702e6b8"
+                  action
+                  class="row justify-content-start g-2"
+                  method="POST"
+                >
+                  <label for="name" class="form-label"
+                    >Ім'я або назва компанії (обов'язкове поле)</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control mb-3"
+                    name="Ім'я"
+                    id="name"
+                    required
+                  />
+
+                  <label for="phoneNumber" class="form-label"
+                    >Ваш Email (обов'язкове поле)</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control mb-3"
+                    name="Email"
+                    id="email"
+                    required
+                  />
+
+                  <label for="phoneNumber" class="form-label"
+                    >Телефон (обов'язкове поле)</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control mb-3"
+                    name="Телефон"
+                    id="phoneNumber"
+                    required
+                  />
+                  <div class="d-flex">
+                    <div class="me-3" style="flex: 2;">
+                      <label for="product" class="form-label">Продукт</label>
+
+                      <select
+                        class="form-select mb-3"
+                        id="product"
+                        name="Продукт"
+                      >
+                        <option value="Борошно">Борошно</option>
+                        <option value="Висівки" selected>Висівки</option>
+                        <option value="Манна крупа">Манна крупа</option>
+                      </select>
+                    </div>
+                    <div style="flex: 1;">
+                      <label for="volume" class="form-label"
+                        >Об'єм (тонн)</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control mb-3"
+                        name="Об'єм (тонн)"
+                        id="volume"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <label for="comments" class="form-label">Коментар</label>
+                  <textarea
+                    class="form-control"
+                    id="comments"
+                    name="Коментар"
+                    rows="3"
+                  ></textarea>
+                  <input type="hidden" name="_captcha" value="false" />
+                  <input
+                    type="hidden"
+                    name="_next"
+                    value="http://127.0.0.1:5500/thankyou.html"
+                  />
+                  <input type="hidden" name="_subject" value="Заказ продукта" />
+                  <input type="hidden" name="_template" value="table" />
+                  <div class="d-flex mt-4" style="justify-content: right;">
+                    <button type="submit" class="btn btn-lg btn-custom mr-3">
+                      Залишити заяву
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-secondary btn-lg"
+                      data-bs-dismiss="modal"
+                    >
+                      Назад
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Order form Seminola -->
+    <div
+      class="modal fade"
+      id="orderFormSeminola"
+      tabindex="-1"
+      aria-labelledby="orderLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="orderLabel">Форма замовлення</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="container text-start">
+              <div class="row justify-content-center">
+                <!--Rus:bb578093b6a53e03850716bdb2a99164-->
+                <!--Nat:9cf9691a396ac0aa43f64c51c702e6b8-->
+                <form
+                  action="https://formsubmit.co/9cf9691a396ac0aa43f64c51c702e6b8"
+                  action
+                  class="row justify-content-start g-2"
+                  method="POST"
+                >
+                  <label for="name" class="form-label"
+                    >Ім'я або назва компанії (обов'язкове поле)</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control mb-3"
+                    name="Ім'я"
+                    id="name"
+                    required
+                  />
+
+                  <label for="phoneNumber" class="form-label"
+                    >Ваш Email (обов'язкове поле)</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control mb-3"
+                    name="Email"
+                    id="email"
+                    required
+                  />
+
+                  <label for="phoneNumber" class="form-label"
+                    >Телефон (обов'язкове поле)</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control mb-3"
+                    name="Телефон"
+                    id="phoneNumber"
+                    required
+                  />
+                  <div class="d-flex">
+                    <div class="me-3" style="flex: 2;">
+                      <label for="product" class="form-label">Продукт</label>
+
+                      <select
+                        class="form-select mb-3"
+                        id="product"
+                        name="Продукт"
+                      >
+                        <option value="Борошно">Борошно</option>
+                        <option value="Висівки">Висівки</option>
+                        <option value="Манна крупа" selected
+                          >Манна крупа</option
+                        >
+                      </select>
+                    </div>
+                    <div style="flex: 1;">
+                      <label for="volume" class="form-label"
+                        >Об'єм (тонн)</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control mb-3"
+                        name="Об'єм (тонн)"
+                        id="volume"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <label for="comments" class="form-label">Коментар</label>
+                  <textarea
+                    class="form-control"
+                    id="comments"
+                    name="Коментар"
+                    rows="3"
+                  ></textarea>
+                  <input type="hidden" name="_captcha" value="false" />
+                  <input
+                    type="hidden"
+                    name="_next"
+                    value="http://127.0.0.1:5500/thankyou.html"
+                  />
+                  <input type="hidden" name="_subject" value="Заказ продукта" />
+                  <input type="hidden" name="_template" value="table" />
+                  <div class="d-flex mt-4" style="justify-content: right;">
+                    <button type="submit" class="btn btn-lg btn-custom mr-3">
+                      Залишити заяву
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-secondary btn-lg"
+                      data-bs-dismiss="modal"
+                    >
+                      Назад
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!--Call order-->
     <div
       class="modal fade"
-      id="orderForm"
-      data-bs-backdrop="static"
-      data-bs-keyboard="false"
+      id="callOrder"
       tabindex="-1"
       aria-labelledby="contactManagerLabel"
       aria-hidden="true"
@@ -630,7 +1022,7 @@
         <div class="modal-content border h-100">
           <div class="modal-header">
             <h5 class="modal-title" id="contactManagerLabel">
-              Форма замовлення
+              Замовити дзвінок
             </h5>
             <button
               type="button"
@@ -658,7 +1050,7 @@
                     <input
                       type="text"
                       class="form-control mb-3"
-                      name="name"
+                      name="Ім'я"
                       id="name"
                       required
                     />
@@ -669,7 +1061,7 @@
                     <input
                       type="text"
                       class="form-control mb-3"
-                      name="phoneNumber"
+                      name="Телефон"
                       id="phoneNumber"
                       required
                     />
@@ -680,7 +1072,7 @@
                     <input
                       type="text"
                       class="form-control mb-3"
-                      name="timeToCall"
+                      name="Коли Вам зателефонувати?"
                       id="whenToCall"
                       required
                     />
@@ -689,7 +1081,7 @@
                     <textarea
                       class="form-control"
                       id="comments"
-                      name="message"
+                      name="Коментар"
                       rows="3"
                     ></textarea>
                     <input type="hidden" name="_captcha" value="false" />
@@ -705,16 +1097,18 @@
                     />
                     <input type="hidden" name="_template" value="table" />
 
-                    <button type="submit" class="btn btn-custom">
-                      Залишити заяву
-                    </button>
-                    <button
-                      type="button"
-                      class="btn btn-secondary"
-                      data-bs-dismiss="modal"
-                    >
-                      Назад
-                    </button>
+                    <div class="d-flex mt-4" style="justify-content: right;">
+                      <button type="submit" class="btn btn-lg btn-custom mr-3">
+                        Залишити заяву
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-secondary btn-lg"
+                        data-bs-dismiss="modal"
+                      >
+                        Назад
+                      </button>
+                    </div>
                   </form>
                 </div>
               </div>
@@ -816,7 +1210,12 @@
             </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-lg btn-custom">
+            <button
+              type="button"
+              class="btn btn-lg btn-custom"
+              data-bs-toggle="modal"
+              data-bs-target="#orderFormFlour"
+            >
               Замовити
             </button>
             <button
@@ -895,7 +1294,12 @@
             </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-lg btn-custom">
+            <button
+              type="button"
+              class="btn btn-lg btn-custom"
+              data-bs-toggle="modal"
+              data-bs-target="#orderFormBran"
+            >
               Замовити
             </button>
             <button
@@ -974,7 +1378,12 @@
             </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-lg btn-custom">
+            <button
+              type="button"
+              class="btn btn-lg btn-custom"
+              data-bs-toggle="modal"
+              data-bs-target="#orderFormSeminola"
+            >
               Замовити
             </button>
             <button
