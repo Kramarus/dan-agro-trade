@@ -449,8 +449,27 @@
             <h4>
               Підпісатися
             </h4>
-            <form action="">
-              <input type="text" placeholder="Ваш Email" />
+            <!--Rus:bb578093b6a53e03850716bdb2a99164-->
+            <!--Nat:9cf9691a396ac0aa43f64c51c702e6b8-->
+            <form
+              action="https://formsubmit.co/9cf9691a396ac0aa43f64c51c702e6b8"
+              class="row justify-content-start g-2"
+              method="POST"
+            >
+              <input
+                type="text"
+                name="Email"
+                placeholder="Ваш Email"
+                required
+              />
+              <input type="hidden" name="_captcha" value="false" />
+              <input
+                type="hidden"
+                name="_next"
+                value="https://kramarus.github.io/dan-agro-trade/"
+              />
+              <input type="hidden" name="_subject" value="Подписка" />
+              <input type="hidden" name="_template" value="table" />
               <button type="submit">
                 Підпісатися
               </button>
@@ -471,7 +490,7 @@
 
     <!-- end info section -->
 
-    <!--Order call -->
+    <!--Order form -->
     <div
       class="modal fade"
       id="orderForm"
@@ -496,7 +515,7 @@
                 <!--Rus:bb578093b6a53e03850716bdb2a99164-->
                 <!--Nat:9cf9691a396ac0aa43f64c51c702e6b8-->
                 <form
-                  action="https://formsubmit.co/bb578093b6a53e03850716bdb2a99164"
+                  action="https://formsubmit.co/9cf9691a396ac0aa43f64c51c702e6b8"
                   action
                   class="row justify-content-start g-2"
                   method="POST"
@@ -533,28 +552,34 @@
                     id="phoneNumber"
                     required
                   />
+                  <div class="d-flex">
+                    <div class="me-3" style="flex: 2;">
+                      <label for="product" class="form-label">Продукт</label>
 
-                  <label for="product" class="form-label"
-                    >Продукт</label
-                  >
-
-                  <select class="form-select mb-3" id="product" name="Продукт">
-                    <option selected>Оберіть продукт</option>
-                    <option value="Борошно">Борошно</option>
-                    <option value="Висівки">Висівки</option>
-                    <option value="Манна крупа">Манна крупа</option>
-                  </select>
-
-                  <label for="volume" class="form-label"
-                    >Об'єм (тонн)</label
-                  >
-                  <input
-                    type="text"
-                    class="form-control mb-3"
-                    name="Об'єм (тонн)"
-                    id="volume"
-                    required
-                  />
+                      <select
+                        class="form-select mb-3"
+                        id="product"
+                        name="Продукт"
+                      >
+                        <option selected>Оберіть продукт</option>
+                        <option value="Борошно">Борошно</option>
+                        <option value="Висівки">Висівки</option>
+                        <option value="Манна крупа">Манна крупа</option>
+                      </select>
+                    </div>
+                    <div style="flex: 1;">
+                      <label for="volume" class="form-label"
+                        >Об'єм (тонн)</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control mb-3"
+                        name="Об'єм (тонн)"
+                        id="volume"
+                        required
+                      />
+                    </div>
+                  </div>
 
                   <label for="comments" class="form-label">Коментар</label>
                   <textarea
@@ -569,43 +594,29 @@
                     name="_next"
                     value="http://127.0.0.1:5500/thankyou.html"
                   />
-                  <input
-                    type="hidden"
-                    name="_subject"
-                    value="Заказ продукта"
-                  />
+                  <input type="hidden" name="_subject" value="Заказ продукта" />
                   <input type="hidden" name="_template" value="table" />
-                  <button type="submit" class="btn btn-custom">
-                    Залишити заяву
-                  </button>
-                  <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                  >
-                    Назад
-                  </button>
+                  <div class="d-flex mt-4" style="justify-content: right;">
+                    <button type="submit" class="btn btn-lg btn-custom mr-3">
+                      Залишити заяву
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-secondary btn-lg"
+                      data-bs-dismiss="modal"
+                    >
+                      Назад
+                    </button>
+                  </div>
                 </form>
               </div>
             </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-lg btn-custom">
-              Замовити
-            </button>
-            <button
-              type="button"
-              class="btn btn-lg btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Назад
-            </button>
           </div>
         </div>
       </div>
     </div>
 
-    <!--Ordering form-->
+    <!--Call order-->
     <div
       class="modal fade"
       id="orderForm"
@@ -713,114 +724,6 @@
       </div>
     </div>
 
-    <!--Learn more-->
-    <div
-      class="modal fade"
-      id="learnMore11"
-      data-bs-backdrop="static"
-      data-bs-keyboard="false"
-      tabindex="-1"
-      aria-labelledby="contactManagerLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content border h-100">
-          <div class="modal-header">
-            <h5 class="modal-title" id="contactManagerLabel">
-              Дізнатися більше
-            </h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <!--Form Original-->
-            <div class="container text-start">
-              <div class="row justify-content-center">
-                <div class="col-12">
-                  <!--Rus:bb578093b6a53e03850716bdb2a99164-->
-                  <!--Nat:9cf9691a396ac0aa43f64c51c702e6b8-->
-                  <form
-                    action="https://formsubmit.co/9cf9691a396ac0aa43f64c51c702e6b8"
-                    action
-                    class="row justify-content-start g-2"
-                    method="POST"
-                  >
-                    <label for="name" class="form-label"
-                      >Ім'я або назва компанії (обов'язкове поле)</label
-                    >
-                    <input
-                      type="text"
-                      class="form-control mb-3"
-                      name="name"
-                      id="name"
-                      required
-                    />
-
-                    <label for="phoneNumber" class="form-label"
-                      >Телефон (обов'язкове поле)</label
-                    >
-                    <input
-                      type="text"
-                      class="form-control mb-3"
-                      name="phoneNumber"
-                      id="phoneNumber"
-                      required
-                    />
-
-                    <label for="whenToCall" class="form-label"
-                      >Коли Вам зателефонувати? (обов'язкове поле)</label
-                    >
-                    <input
-                      type="text"
-                      class="form-control mb-3"
-                      name="timeToCall"
-                      id="whenToCall"
-                      required
-                    />
-
-                    <label for="comments" class="form-label">Коментар</label>
-                    <textarea
-                      class="form-control"
-                      id="comments"
-                      name="message"
-                      rows="3"
-                    ></textarea>
-                    <input type="hidden" name="_captcha" value="false" />
-                    <input
-                      type="hidden"
-                      name="_next"
-                      value="https://dan-agro.com.ua/thankyou.html"
-                    />
-                    <input
-                      type="hidden"
-                      name="_subject"
-                      value="Передзвоніть мені"
-                    />
-                    <input type="hidden" name="_template" value="table" />
-
-                    <button type="submit" class="btn btn-custom">
-                      Залишити заяву
-                    </button>
-                    <button
-                      type="button"
-                      class="btn btn-danger"
-                      data-bs-dismiss="modal"
-                    >
-                      Назад
-                    </button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!-- Flour -->
     <div
       class="modal fade"
@@ -829,7 +732,7 @@
       aria-labelledby="flourLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="flourLabel">Борошно</h5>
@@ -927,6 +830,7 @@
         </div>
       </div>
     </div>
+    <!--Flour end-->
 
     <!-- Bran -->
     <div
@@ -936,7 +840,7 @@
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Висівки</h5>
@@ -1005,6 +909,7 @@
         </div>
       </div>
     </div>
+    <!--Bran end-->
 
     <!-- Seminola -->
     <div
@@ -1014,7 +919,7 @@
       aria-labelledby="seminolaLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="seminolaLabel">Крупа манна</h5>
@@ -1083,6 +988,7 @@
         </div>
       </div>
     </div>
+    <!--Seminola end-->
 
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.js"></script>
