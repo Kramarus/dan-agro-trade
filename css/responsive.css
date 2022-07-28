@@ -54,7 +54,7 @@
   }
 
   .slider_section .box::before {
-    width: calc(100% - 25px);
+    width: calc(100%);
   }
 
   .bg-overlay {
@@ -91,7 +91,7 @@
   .contact_section::before,
   .client_section::before,
   .info_section::before {
-    width: calc(100% - 25px);
+    width: calc(100%);
   }
 }
 
@@ -127,11 +127,11 @@
 
 @media (max-width: 576px) {
   .section_pl {
-    padding-left: 25px;
+    padding-left: 15px;
   }
 
   .section_pr {
-    padding-right: 25px;
+    padding-right: 15px;
   }
 
   .slider_section .box .detail-box .btn-box {
@@ -188,7 +188,7 @@
     transform: translateX(-2px);
   }
   .slider_section .box::before {
-    width: calc(100% - 15px);
+    width: calc(100%);
   }
   .wedo_section::before,
   .choose_section::before,
@@ -196,7 +196,7 @@
   .contact_section::before,
   .client_section::before,
   .info_section::before {
-    width: calc(100% - 15px);
+    width: calc(100%);
   }
 }
 
