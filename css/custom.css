@@ -22,6 +22,10 @@ body {
     
 }
 
+.overlay-content a {
+    width: 220px;
+}
+
 .bg-overlay {
     background-color: rgba(0, 0, 0, 0.7);
     background-size: cover;
