@@ -90,6 +90,8 @@ body {
     z-index: 100000;
 }
 
-.wedo_section a {
-    padding: 16px 320px;
+.wedo_section a.btn {
+    padding: 16px 32px!important;
+    border: 0px solid white;
+    border-radius: 0;
 }
