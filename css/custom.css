@@ -91,3 +91,7 @@ body {
 }
 
 /*#62a900 green*/
+
+.modal {
+    z-index: 100000;
+}
