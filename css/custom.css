@@ -75,15 +75,6 @@ body {
     color: #e6e7e2;
 }
 
-body {
-    background-image: url(../img/flour-bg.jpg);
-    background-repeat: repeat-y;  
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-
-}
-
 .bg-custom {
     background-color: #f8bd01;
 }

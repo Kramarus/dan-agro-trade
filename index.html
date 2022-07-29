@@ -45,10 +45,10 @@
     />
 
     <!-- Custom styles for this template -->
-    <link href="css/style.css?v=1.12652" rel="stylesheet" />
+    <link href="css/style.css?v=1.12653" rel="stylesheet" />
     <!-- responsive style -->
-    <link href="css/responsive.css?v=1.12652" rel="stylesheet" />
-    <link href="css/custom.css?v=1.12652" rel="stylesheet" />
+    <link href="css/responsive.css?v=1.12653" rel="stylesheet" />
+    <link href="css/custom.css?v=1.12653" rel="stylesheet" />
     <script
       src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"
       async
@@ -59,7 +59,17 @@
     ></script>
   </head>
 
-  <body>
+  <body
+    style="
+      background-image: url(../img/flour-bg.jpg);
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+    "
+  >
     <div class="hero_area">
       <!-- header section strats -->
       <header class="header_section">
@@ -137,11 +147,11 @@
                   <h1 class="mb-4">
                     Експорт зернової продукції
                   </h1>
-                  <h3>
+                  <h4>
                     ДАН АГРО ТРЕЙД – український постачальник
                     сільськогосподарської продукції для харчової промисловості,
                     тваринництва, птахівництва та інших галузей
-                  </h3>
+                  </h4>
                   <div class="btn-box">
                     <a href="#products" class="btn-1">
                       Дізнатися більше
@@ -171,11 +181,76 @@
       id="products"
       class="wedo_section layout_padding section_pr animate__animated animate__bounceInLeft animate__delay-1s"
     >
-      <div class="container">
-        <div class="heading_container">
+      <div class="container py-3">
+        <div class="heading_container ps-3 pb-3">
           <h2><span>Наша</span> продукція</h2>
         </div>
-        <div class="carousel-wrap">
+        <div class="row">
+          <div class="col-12 my-4 my-lg-0 col-lg-4"><div class="item">
+            <div class="box" style="width: 100%;">
+              <div class="img-box">
+                <img src="img/flour2.jpg" alt="" />
+              </div>
+              <div class="detail-box">
+                <h4>
+                  Борошно
+                </h4>
+                <a
+                  class="text-dark"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#learnMoreFlourUa"
+                >
+                  Дізнатися більше
+                </a>
+              </div>
+            </div>
+          </div></div>
+          <div class="col-12 my-4 my-lg-0 col-lg-4"><div class="item">
+            <div class="box" style="width: 100%;">
+              <div class="img-box">
+                <img class="img-fluid" src="img/bran.jpg" alt="" />
+              </div>
+              <div class="detail-box">
+                <h4>
+                  Висівки
+                </h4>
+
+                <a
+                  class="text-dark"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#learnMoreBranUa"
+                >
+                  Дізнатися більше
+                </a>
+              </div>
+            </div>
+          </div></div>
+          <div class="col-12 my-4 my-lg-0 col-lg-4"><div class="item">
+            <div class="box" style="width: 100%;">
+              <div class="img-box">
+                <img src="img/seminola.jpg" alt="" />
+              </div>
+              <div class="detail-box">
+                <h4>
+                  Крупа манна
+                </h4>
+
+                <a
+                  class="text-dark"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#learnMoreSeminolaUa"
+                >
+                  Дізнатися більше
+                </a>
+              </div>
+            </div>
+          </div></div>
+        </div>
+        <!--Owl carousel-->
+        <!-- <div class="carousel-wrap">
           <div class="owl-carousel wedo_owl_carousel">
             <div class="item">
               <div class="box">
@@ -240,7 +315,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -1269,7 +1344,12 @@
             <div class="container text-start">
               <div class="row justify-content-center">
                 <div class="col-12">
-                  <img class="img-fluid" src="./img/bran.jpg" style="width: 100%; height: auto;" alt="" />
+                  <img
+                    class="img-fluid"
+                    src="./img/bran.jpg"
+                    style="width: 100%; height: auto;"
+                    alt=""
+                  />
                   <p>Висівки пшеничні згідно з ГОСТ 3016-95</p>
                   <p>Країна походження сировини: Україна</p>
                   <table class="table table-bordered">
