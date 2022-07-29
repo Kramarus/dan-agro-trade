@@ -1,3 +1,8 @@
+@media (min-width: 1349px) {
+  .box_content .detail-box {
+    height: 120px!important;
+}
+}
 @media (max-width: 1348px) {
   .wedo_section .owl-carousel .owl-nav,
   .blog_section .carousel_btn-box,
@@ -10,9 +15,24 @@
     height: 50px;
     margin-top: 45px;
   }
+  .box_content .detail-box {
+    height: 130px!important;
+}
+
+.wedo_section::before,
+  .choose_section::before,
+  .blog_section::before,
+  .contact_section::before,
+  .client_section::before,
+  .info_section::before {
+    width: calc(100%);
+  }
 }
 
 @media (max-width: 1120px) {
+  .box_content .detail-box {
+    height: 140px!important;
+}
 }
 
 @media (max-width: 991px) {
@@ -21,6 +41,10 @@
     background-size: cover;
     flex-direction: column;
   }
+
+  .box_content .detail-box {
+    height: 180px!important;
+}
 
   .header_section {
     padding: 0 25px;
@@ -103,6 +127,10 @@
   .wedo_section .box {
     margin: 0;
   }
+
+  .box_content .detail-box {
+    height: 100px!important;
+}
 
   .contact_section .map_container {
     margin-top: 45px;
