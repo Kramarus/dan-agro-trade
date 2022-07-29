@@ -281,7 +281,7 @@ a:focus {
       .slider_section .box .detail-box .btn-box {
         display: flex;
         margin-top: 35px; }
-        .slider_section .box .detail-box .btn-box a {
+        .slider_section .box .detail-box .btn-box button.a-button {
           width: 220px;
           text-transform: uppercase;
           text-align: center;
