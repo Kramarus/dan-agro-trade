@@ -4,9 +4,9 @@ $primary1: #e6e7e2;
 $btnColor: #f8bd01;
 
 @font-face {
-  font-family: BerlinSansFBDemi;
+  font-family: Roboto, sans-serif;
   src: url(../fonts/Berlin_Sans/BerlinSansFBDemiBold.ttf);
-  font-weight: bold;
+  font-weight: 350;
 }
 
 @mixin main-font {
