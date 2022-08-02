@@ -597,7 +597,11 @@
                 required
               />
               <input type="hidden" name="_captcha" value="false" />
-              <input type="hidden" name="_next" value="https://dan-agro.com/ru.html" />
+              <input
+                type="hidden"
+                name="_next"
+                value="https://dan-agro.com/ru.html"
+              />
               <input type="hidden" name="_subject" value="Подписка_RU" />
               <input type="hidden" name="_template" value="table" />
               <button type="submit">
@@ -693,7 +697,9 @@
                       >
                         <option selected>Выберите продукт</option>
                         <option value="Пшеничная мука">Пшеничная мука</option>
-                        <option value="Пшеничные отруби">Пшеничные отруби</option>
+                        <option value="Пшеничные отруби"
+                          >Пшеничные отруби</option
+                        >
                         <option value="Манная крупа">Манная крупа</option>
                       </select>
                     </div>
@@ -712,7 +718,8 @@
                   </div>
 
                   <label for="comments" class="form-label"
-                    >Комментарий (требования к качеству продукта, к упаковке и тд.)</label
+                    >Комментарий (требования к качеству продукта, к упаковке и
+                    тд.)</label
                   >
                   <textarea
                     class="form-control"
@@ -819,8 +826,12 @@
                         id="product"
                         name="Продукт"
                       >
-                        <option value="Пшеничная мука" selected>Пшеничная мука</option>
-                        <option value="Пшеничные отруби">Пшеничные отруби</option>
+                        <option value="Пшеничная мука" selected
+                          >Пшеничная мука</option
+                        >
+                        <option value="Пшеничные отруби"
+                          >Пшеничные отруби</option
+                        >
                         <option value="Манная крупа">Манная крупа</option>
                       </select>
                     </div>
@@ -839,7 +850,8 @@
                   </div>
 
                   <label for="comments" class="form-label"
-                    >Комментарий (требования к качеству продукта, к упаковке и др.)</label
+                    >Комментарий (требования к качеству продукта, к упаковке и
+                    др.)</label
                   >
                   <textarea
                     class="form-control"
@@ -853,11 +865,7 @@
                     name="_next"
                     value="https://dan-agro.com/thankyou_ru.html"
                   />
-                  <input
-                    type="hidden"
-                    name="_subject"
-                    value="Заказ муки"
-                  />
+                  <input type="hidden" name="_subject" value="Заказ муки" />
                   <input type="hidden" name="_template" value="table" />
                   <div class="d-flex mt-4" style="justify-content: right;">
                     <button type="submit" class="btn btn-lg btn-custom mr-3">
@@ -951,7 +959,9 @@
                         name="Продукт"
                       >
                         <option value="Пшеничная мука">Пшеничная мука</option>
-                        <option value="Пшеничные отруби" selected>Пшеничные отруби</option>
+                        <option value="Пшеничные отруби" selected
+                          >Пшеничные отруби</option
+                        >
                         <option value="Манная крупа">Манная крупа</option>
                       </select>
                     </div>
@@ -970,7 +980,8 @@
                   </div>
 
                   <label for="comments" class="form-label"
-                    >Комментарий (требования к качеству продукта, к упаковке и др.)</label
+                    >Комментарий (требования к качеству продукта, к упаковке и
+                    др.)</label
                   >
                   <textarea
                     class="form-control"
@@ -984,11 +995,7 @@
                     name="_next"
                     value="https://dan-agro.com/thankyou_ru.html"
                   />
-                  <input
-                    type="hidden"
-                    name="_subject"
-                    value="Заказ отрубей"
-                  />
+                  <input type="hidden" name="_subject" value="Заказ отрубей" />
                   <input type="hidden" name="_template" value="table" />
                   <div class="d-flex mt-4" style="justify-content: right;">
                     <button type="submit" class="btn btn-lg btn-custom mr-3">
@@ -1082,7 +1089,9 @@
                         name="Продукт"
                       >
                         <option value="Пшеничная мука">Пшеничная мука</option>
-                        <option value="Пшеничные отруби">Пшеничные отруби</option>
+                        <option value="Пшеничные отруби"
+                          >Пшеничные отруби</option
+                        >
                         <option value="Манная крупа" selected
                           >Манная крупа</option
                         >
@@ -1103,7 +1112,8 @@
                   </div>
 
                   <label for="comments" class="form-label"
-                    >Комментарий (требования к качеству продукта, к упаковке и др.)</label
+                    >Комментарий (требования к качеству продукта, к упаковке и
+                    др.)</label
                   >
                   <textarea
                     class="form-control"
@@ -1259,7 +1269,7 @@
       aria-labelledby="flourLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="flourLabel">Пшеничная мука</h5>
@@ -1273,10 +1283,14 @@
           <div class="modal-body">
             <div class="container text-start">
               <div class="row justify-content-center">
-                <div class="col-12">
+                <div class="col-12 col-lg-6">
                   <img class="img-fluid" src="./img/flour2.jpg" alt="" />
-                  <p>Пшеничная мука согласно с ГОСТ 46.004-99</p>
+                  <p class="mt-lg-3">
+                    Пшеничная мука согласно с ГОСТ 46.004-99
+                  </p>
                   <p>Страна происхождения сырья: Украина</p>
+                </div>
+                <div class="col-12 col-lg-6">
                   <table class="table table-bordered">
                     <thead>
                       <tr>
@@ -1298,7 +1312,8 @@
                       </tr>
                       <tr>
                         <td class="text-start">
-                          Зольность в перерасчёте на сухое вещество, %, не больше
+                          Зольность в перерасчёте на сухое вещество, %, не
+                          больше
                         </td>
                         <td class="text-center">0.55</td>
                         <td class="text-center">0.75</td>
@@ -1367,7 +1382,7 @@
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Пшеничные отруби</h5>
@@ -1381,15 +1396,19 @@
           <div class="modal-body">
             <div class="container text-start">
               <div class="row justify-content-center">
-                <div class="col-12">
+                <div class="col-12 col-lg-6">
                   <img
                     class="img-fluid"
                     src="./img/bran.jpg"
                     style="width: 100%; height: auto;"
                     alt=""
                   />
-                  <p>Пшеничные отруби согласно с ДСТУ 3016-95</p>
+                  <p class="mt-lg-3">
+                    Пшеничные отруби согласно с ДСТУ 3016-95
+                  </p>
                   <p>Страна происхождения сырья: Украина</p>
+                </div>
+                <div class="col-12 col-lg-6">
                   <table class="table table-bordered">
                     <tbody>
                       <tr>
@@ -1453,7 +1472,7 @@
       aria-labelledby="seminolaLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="seminolaLabel">Крупа манная</h5>
@@ -1467,10 +1486,12 @@
           <div class="modal-body">
             <div class="container text-start">
               <div class="row justify-content-center">
-                <div class="col-12">
+                <div class="col-12 col-lg-6">
                   <img class="img-fluid" src="./img/seminola.jpg" alt="" />
-                  <p>Крупа манная согласно с ГОСТ 7022-97</p>
+                  <p class="mt-lg-3">Крупа манная согласно с ГОСТ 7022-97</p>
                   <p>Страна происхождения сырья: Украина</p>
+                </div>
+                <div class="col-12 col-lg-6">
                   <table class="table table-bordered">
                     <tbody>
                       <tr>
