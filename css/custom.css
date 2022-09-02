@@ -17,6 +17,19 @@ body {
   border-radius: 50%;
 }
 
+.hero-feature {
+  height: 180px;
+}
+
+.hero-feature .row {
+  height: 100%;
+  
+}
+
+.hero-feature .row > div {
+  margin: auto;
+}
+
 .box_content .detail-box {
   height: 180px;
 }
