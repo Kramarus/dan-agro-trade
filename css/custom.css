@@ -3,7 +3,6 @@ body {
   -webkit-touch-callout: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
 }
 
 body {
@@ -16,6 +15,19 @@ body {
   border: 1px solid white;
   padding: 16px;
   border-radius: 50%;
+}
+
+.hero-feature {
+  height: 180px;
+}
+
+.hero-feature .row {
+  height: 100%;
+  
+}
+
+.hero-feature .row > div {
+  margin: auto;
 }
 
 .box_content .detail-box {
